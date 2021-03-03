@@ -1,0 +1,127 @@
+*{
+    margin:10;
+    padding:100;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+body  {
+  background-image: url("carousel-full.jpeg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+body-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+header h1 {
+  position: absolute;
+  left: 700px;
+  top: 150px
+  }
+
+header p {
+    position: absolute;
+    left: 700px;
+    top: 250px
+    }
+
+
+
+.subscribe-section h2{
+    margin : 20 px;
+    padding-left: 700px;
+    padding-top: 1050px;
+    
+
+
+}
+
+.subscribe-section p{
+    margin : 20 px;
+    padding-left: 700px;
+    padding-top: 10px;
+    position: static;
+    margin-left: -75px;
+
+}
+
+.subscribe-section button{
+    margin : 20 px;
+    padding: 10px 30px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 750px;
+}
+
+.modal-bg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s opacity 0.5s;
+
+}
+
+.bg-active{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+.modal{
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal button{
+    margin : 20 px;
+    padding: 10px 30px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.modal-close{
+    position: absolute;
+    top : 10px;
+    right:10px;
+    font-weight: bold;
+cursor: pointer;
+}
